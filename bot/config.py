@@ -30,7 +30,7 @@ class Config:
                 "API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e"
             )
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
-            self.BOT_TOKEN = config("BOT_TOKEN")
+            self.BOT_TOKEN = config("BOT_TOKEN", default="6607973704:AAFTGRk4D6pnOWfnGFufbMd760rxkL6Agwk")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
             self.CAP_DECO = config("CAP_DECO", default=None)
             self.C_LINK = config("C_LINK", default=None)
